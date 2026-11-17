@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "NameTune",
+    "slug": "name-tune",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      [
+        "@react-native-voice/voice",
+        {
+          "microphonePermission": "Allow NameTune to use your microphone to hear your name.",
+          "speechRecognitionPermission": "Allow NameTune to recognize your spoken name."
+        }
+      ],
+      "expo-asset"
+    ],
+    "android": {
+      "usesCleartextTraffic": true,
+      "permissions": [
+        "RECORD_AUDIO",
+        "android.permission.RECORD_AUDIO",
+        "RECORD_AUDIO",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.anonymous.nametune"
+    }
+  }
+}

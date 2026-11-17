@@ -1,0 +1,1 @@
+"""Personalized song generator application."""

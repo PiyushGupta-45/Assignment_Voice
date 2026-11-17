@@ -1,0 +1,6 @@
+name = "nametune-song-ai"
+main = "src/index.js"
+compatibility_date = "2026-11-08"
+
+[vars]
+GROQ_MODEL = "openai/gpt-oss-20b"

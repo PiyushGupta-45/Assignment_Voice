@@ -1,0 +1,28 @@
+{
+  "name": "name-tune",
+  "version": "1.0.0",
+  "main": "expo/AppEntry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.1.0",
+    "@react-native-voice/voice": "^3.2.4",
+    "expo": "~52.0.0",
+    "expo-asset": "~11.0.5",
+    "expo-av": "~15.0.2",
+    "expo-file-system": "~18.0.12",
+    "expo-linear-gradient": "~14.0.1",
+    "expo-sharing": "~13.0.1",
+    "expo-status-bar": "~2.0.0",
+    "firebase": "^11.3.1",
+    "react": "18.3.1",
+    "react-native": "0.76.3"
+  },
+  "devDependencies": {
+    "patch-package": "^8.0.1"
+  }
+}

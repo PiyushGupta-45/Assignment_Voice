@@ -1,0 +1,15 @@
+.env
+*.json
+!*.example.json
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+tmp/
+generated/
+generated_songs/
+*.mp3
+*.wav
+*.aac
+*.flac
